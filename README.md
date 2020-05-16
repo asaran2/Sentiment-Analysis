@@ -2,6 +2,17 @@
 
 Implemented a Naïve Bayes classifier in Java for categorizing movie reviews as either POSITIVE or NEGATIVE. 
 
+A class project with skeleton code provided. I implemented the following methods:
+
+NaiveBayesClassifier.java: 
+- Map<Label, Integer> getDocumentsCountPerLabel (List<Instance> trainData)
+- Map<Label, Integer> getWordsCountPerLabel(List<Instance> trainData)
+- void train(List<Instance> trainData, int v)
+- ClassifyResult classify(List<String> words)
+  
+CrossValidation.java:
+- double kFoldScore(Classifier clf, List<Instance> trainData, int k, int v)
+  
 The dataset consists of online movie reviews derived from an IMDb dataset: https://ai.stanford.edu/~amaas/data/sentiment/ that have been labeled based on the review scores. A negative review has a score ≤ 4 out of 10, and a positive review has a score ≥ 7 out of 10. We have done some preprocessing on the original dataset to remove some noisy features. Each row in the training set and test set files contains one review, where the first word in each line is the class label (1 represents POSITIVE and 0 represents NEGATIVE) and the remainder of the line is the review text.
 
 Testing:

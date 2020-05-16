@@ -14,4 +14,5 @@ where trainingFilename and testFilename are the names of the training set and te
 1. Prints the number of words for each label in the training set
 2. For each instance in test set, prints a line displaying the predicted class and the log probabilities for both classes
 3. Prints the accuracy score for K-fold cross validation
+
 (sample test files and results provided)

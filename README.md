@@ -6,7 +6,7 @@ The dataset consists of online movie reviews derived from an IMDb dataset: https
 
 Testing:
 Use the following command line format:
-java SentimentAnalysis <mode> <trainFilename> [<testFilename> | <K>]
+java SentimentAnalysis mode trainFilename [testFilename | K]
   
 where trainingFilename and testFilename are the names of the training set and test set files, respectively. mode is an integer from 0 to 3, controlling what the program will output. When mode is 0 or 1, there are only two arguments, mode and trainFilename; when the mode is 2 the third argument is testFilename; when mode is 3, the third argument is K, the number of folds used for cross validation. The output for these four modes should be:
   

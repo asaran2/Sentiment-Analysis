@@ -2,7 +2,7 @@
 
 Implemented a Naïve Bayes classifier in Java for categorizing movie reviews as either POSITIVE or NEGATIVE. 
 
-A class project with skeleton code provided. I implemented the following methods:
+I implemented the following methods:
 
 NaiveBayesClassifier.java: 
 - Map<Label, Integer> getDocumentsCountPerLabel (List<Instance> trainData)
